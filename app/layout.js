@@ -6,11 +6,7 @@ export const metadata = {
   description: "Proyecto de práctica con Next.js",
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }) {
   return (
     <html lang="es">
       <body>
